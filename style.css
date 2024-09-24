@@ -1,0 +1,27 @@
+.heading{
+    position: absolute;
+    top: 20px;
+    color: white;
+    margin-left: 30px;
+    width: 25%;
+    word-spacing: 2px;
+    margin-top: 50px;
+}
+
+
+.p{
+    text-decoration: underline;
+    margin-top: 180px;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:850px) {
+    .container-fluid{
+        display: block;
+        margin-left: 40px;
+    }
+    .back img{
+        display: none;
+    }
+}
